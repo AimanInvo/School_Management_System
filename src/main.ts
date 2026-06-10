@@ -11,11 +11,14 @@ app.useGlobalPipes(
   }),
 );
   const config = new DocumentBuilder()
-    .setTitle('Products API')
-    .setDescription('Simple NestJS PostgreSQL CRUD API')
+    .setTitle('School API')
+    .setDescription('Simple NestJS PostgreSQL school management system')
     .setVersion('1.0')
  .addTag('products')
   .addTag('auth')
+  .addTag('users')
+  .addTag('student')
+  .addTag('teacher')
   .addBearerAuth()
   .build();
 
