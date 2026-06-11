@@ -19,6 +19,8 @@ app.useGlobalPipes(
   .addTag('users')
   .addTag('student')
   .addTag('teacher')
+  .addTag('subjects')
+  .addTag('classes')
   .addBearerAuth()
   .build();
 
